@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LeafTaps" duration-ms="558048" started-at="2022-08-19T13:39:04 IST" finished-at="2022-08-19T13:48:22 IST">
+    <groups>
+    </groups>
+    <test name="Leads Chrome" duration-ms="265602" started-at="2022-08-19T13:39:04 IST" finished-at="2022-08-19T13:43:30 IST">
+      <class name="testcase.DeleteLead">
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.DeleteLead@6483f5ae]" name="preCondition" is-config="true" duration-ms="5236" started-at="2022-08-19T13:39:59 IST" finished-at="2022-08-19T13:40:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="deleteLead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.DeleteLead@6483f5ae]" name="deleteLead" duration-ms="16597" started-at="2022-08-19T13:40:05 IST" data-provider="testdata" finished-at="2022-08-19T13:40:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.DeleteLead@6483f5ae]" name="postCondition" is-config="true" duration-ms="2444" started-at="2022-08-19T13:40:21 IST" finished-at="2022-08-19T13:40:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.DeleteLead@6483f5ae]" name="preCondition" is-config="true" duration-ms="4976" started-at="2022-08-19T13:40:24 IST" finished-at="2022-08-19T13:40:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="deleteLead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.DeleteLead@6483f5ae]" name="deleteLead" duration-ms="17327" started-at="2022-08-19T13:40:29 IST" data-provider="testdata" finished-at="2022-08-19T13:40:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[97]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.DeleteLead@6483f5ae]" name="postCondition" is-config="true" duration-ms="2416" started-at="2022-08-19T13:40:46 IST" finished-at="2022-08-19T13:40:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcase.DeleteLead -->
+      <class name="testcase.EditLead">
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.EditLead@fcd6521]" name="preCondition" is-config="true" duration-ms="8902" started-at="2022-08-19T13:39:04 IST" finished-at="2022-08-19T13:39:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="editLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.EditLead@fcd6521]" name="editLead" duration-ms="19856" started-at="2022-08-19T13:39:13 IST" data-provider="testdata" finished-at="2022-08-19T13:39:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.EditLead@fcd6521]" name="postCondition" is-config="true" duration-ms="2496" started-at="2022-08-19T13:39:33 IST" finished-at="2022-08-19T13:39:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.EditLead@fcd6521]" name="preCondition" is-config="true" duration-ms="4755" started-at="2022-08-19T13:39:36 IST" finished-at="2022-08-19T13:39:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="editLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.EditLead@fcd6521]" name="editLead" duration-ms="18771" started-at="2022-08-19T13:39:40 IST" data-provider="testdata" finished-at="2022-08-19T13:39:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[97]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CTS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.EditLead@fcd6521]" name="postCondition" is-config="true" duration-ms="307" started-at="2022-08-19T13:39:59 IST" finished-at="2022-08-19T13:39:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcase.EditLead -->
+      <class name="testcase.CreateLead">
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.CreateLead@b9afc07]" name="preCondition" is-config="true" duration-ms="4511" started-at="2022-08-19T13:40:48 IST" finished-at="2022-08-19T13:40:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.CreateLead@b9afc07]" name="createLead" duration-ms="15861" started-at="2022-08-19T13:40:53 IST" data-provider="testdata" finished-at="2022-08-19T13:41:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.CreateLead@b9afc07]" name="postCondition" is-config="true" duration-ms="219" started-at="2022-08-19T13:41:09 IST" finished-at="2022-08-19T13:41:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.CreateLead@b9afc07]" name="preCondition" is-config="true" duration-ms="5194" started-at="2022-08-19T13:41:09 IST" finished-at="2022-08-19T13:41:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.CreateLead@b9afc07]" name="createLead" duration-ms="14484" started-at="2022-08-19T13:41:14 IST" data-provider="testdata" finished-at="2022-08-19T13:41:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Qeagle]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[97]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.CreateLead@b9afc07]" name="postCondition" is-config="true" duration-ms="2453" started-at="2022-08-19T13:41:29 IST" finished-at="2022-08-19T13:41:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcase.CreateLead -->
+      <class name="testcase.MergeLead">
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.MergeLead@382db087]" name="preCondition" is-config="true" duration-ms="5200" started-at="2022-08-19T13:41:31 IST" finished-at="2022-08-19T13:41:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="mergeLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.MergeLead@382db087]" name="mergeLead" duration-ms="24287" started-at="2022-08-19T13:41:36 IST" data-provider="testdata" finished-at="2022-08-19T13:42:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[babu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.MergeLead@382db087]" name="postCondition" is-config="true" duration-ms="2418" started-at="2022-08-19T13:42:01 IST" finished-at="2022-08-19T13:42:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.MergeLead@382db087]" name="preCondition" is-config="true" duration-ms="4504" started-at="2022-08-19T13:42:03 IST" finished-at="2022-08-19T13:42:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="mergeLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.MergeLead@382db087]" name="mergeLead" duration-ms="23181" started-at="2022-08-19T13:42:08 IST" data-provider="testdata" finished-at="2022-08-19T13:42:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[babu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.MergeLead@382db087]" name="postCondition" is-config="true" duration-ms="2423" started-at="2022-08-19T13:42:31 IST" finished-at="2022-08-19T13:42:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcase.MergeLead -->
+      <class name="testcase.DuplicateLead">
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.DuplicateLead@73d4cc9e]" name="preCondition" is-config="true" duration-ms="4510" started-at="2022-08-19T13:42:33 IST" finished-at="2022-08-19T13:42:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="duplicateLead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.DuplicateLead@73d4cc9e]" name="duplicateLead" duration-ms="22706" started-at="2022-08-19T13:42:38 IST" data-provider="testdata" finished-at="2022-08-19T13:43:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.DuplicateLead@73d4cc9e]" name="postCondition" is-config="true" duration-ms="2468" started-at="2022-08-19T13:43:00 IST" finished-at="2022-08-19T13:43:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.DuplicateLead@73d4cc9e]" name="preCondition" is-config="true" duration-ms="4521" started-at="2022-08-19T13:43:03 IST" finished-at="2022-08-19T13:43:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="duplicateLead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.DuplicateLead@73d4cc9e]" name="duplicateLead" duration-ms="20026" started-at="2022-08-19T13:43:07 IST" data-provider="testdata" finished-at="2022-08-19T13:43:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[97]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.DuplicateLead@73d4cc9e]" name="postCondition" is-config="true" duration-ms="2434" started-at="2022-08-19T13:43:27 IST" finished-at="2022-08-19T13:43:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcase.DuplicateLead -->
+    </test> <!-- Leads Chrome -->
+    <test name="Leads Edge" duration-ms="292392" started-at="2022-08-19T13:43:30 IST" finished-at="2022-08-19T13:48:22 IST">
+      <class name="testcase.DeleteLead">
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.DeleteLead@1188e820]" name="preCondition" is-config="true" duration-ms="7232" started-at="2022-08-19T13:44:32 IST" finished-at="2022-08-19T13:44:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="deleteLead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.DeleteLead@1188e820]" name="deleteLead" duration-ms="19586" started-at="2022-08-19T13:44:39 IST" data-provider="testdata" finished-at="2022-08-19T13:44:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.DeleteLead@1188e820]" name="postCondition" is-config="true" duration-ms="2532" started-at="2022-08-19T13:44:59 IST" finished-at="2022-08-19T13:45:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.DeleteLead@1188e820]" name="preCondition" is-config="true" duration-ms="7851" started-at="2022-08-19T13:45:01 IST" finished-at="2022-08-19T13:45:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="deleteLead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.DeleteLead@1188e820]" name="deleteLead" duration-ms="18165" started-at="2022-08-19T13:45:09 IST" data-provider="testdata" finished-at="2022-08-19T13:45:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[97]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.DeleteLead@1188e820]" name="postCondition" is-config="true" duration-ms="204" started-at="2022-08-19T13:45:27 IST" finished-at="2022-08-19T13:45:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcase.DeleteLead -->
+      <class name="testcase.EditLead">
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.EditLead@130f889]" name="preCondition" is-config="true" duration-ms="7148" started-at="2022-08-19T13:43:30 IST" finished-at="2022-08-19T13:43:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="editLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.EditLead@130f889]" name="editLead" duration-ms="20335" started-at="2022-08-19T13:43:37 IST" data-provider="testdata" finished-at="2022-08-19T13:43:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.EditLead@130f889]" name="postCondition" is-config="true" duration-ms="2590" started-at="2022-08-19T13:43:57 IST" finished-at="2022-08-19T13:44:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.EditLead@130f889]" name="preCondition" is-config="true" duration-ms="7783" started-at="2022-08-19T13:44:00 IST" finished-at="2022-08-19T13:44:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="editLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.EditLead@130f889]" name="editLead" duration-ms="21228" started-at="2022-08-19T13:44:08 IST" data-provider="testdata" finished-at="2022-08-19T13:44:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[97]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CTS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.EditLead@130f889]" name="postCondition" is-config="true" duration-ms="2738" started-at="2022-08-19T13:44:29 IST" finished-at="2022-08-19T13:44:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcase.EditLead -->
+      <class name="testcase.CreateLead">
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.CreateLead@101df177]" name="preCondition" is-config="true" duration-ms="10653" started-at="2022-08-19T13:45:27 IST" finished-at="2022-08-19T13:45:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.CreateLead@101df177]" name="createLead" duration-ms="15284" started-at="2022-08-19T13:45:38 IST" data-provider="testdata" finished-at="2022-08-19T13:45:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.CreateLead@101df177]" name="postCondition" is-config="true" duration-ms="190" started-at="2022-08-19T13:45:53 IST" finished-at="2022-08-19T13:45:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.CreateLead@101df177]" name="preCondition" is-config="true" duration-ms="7717" started-at="2022-08-19T13:45:53 IST" finished-at="2022-08-19T13:46:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.CreateLead@101df177]" name="createLead" duration-ms="15153" started-at="2022-08-19T13:46:01 IST" data-provider="testdata" finished-at="2022-08-19T13:46:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Qeagle]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[97]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.CreateLead@101df177]" name="postCondition" is-config="true" duration-ms="2540" started-at="2022-08-19T13:46:16 IST" finished-at="2022-08-19T13:46:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcase.CreateLead -->
+      <class name="testcase.MergeLead">
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.MergeLead@166fa74d]" name="preCondition" is-config="true" duration-ms="6751" started-at="2022-08-19T13:46:19 IST" finished-at="2022-08-19T13:46:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="mergeLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.MergeLead@166fa74d]" name="mergeLead" duration-ms="23518" started-at="2022-08-19T13:46:26 IST" data-provider="testdata" finished-at="2022-08-19T13:46:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[babu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.MergeLead@166fa74d]" name="postCondition" is-config="true" duration-ms="2461" started-at="2022-08-19T13:46:49 IST" finished-at="2022-08-19T13:46:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.MergeLead@166fa74d]" name="preCondition" is-config="true" duration-ms="8066" started-at="2022-08-19T13:46:52 IST" finished-at="2022-08-19T13:47:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="mergeLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.MergeLead@166fa74d]" name="mergeLead" duration-ms="23036" started-at="2022-08-19T13:47:00 IST" data-provider="testdata" finished-at="2022-08-19T13:47:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[babu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.MergeLead@166fa74d]" name="postCondition" is-config="true" duration-ms="2453" started-at="2022-08-19T13:47:23 IST" finished-at="2022-08-19T13:47:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcase.MergeLead -->
+      <class name="testcase.DuplicateLead">
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.DuplicateLead@40f08448]" name="preCondition" is-config="true" duration-ms="7201" started-at="2022-08-19T13:47:25 IST" finished-at="2022-08-19T13:47:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="duplicateLead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.DuplicateLead@40f08448]" name="duplicateLead" duration-ms="20543" started-at="2022-08-19T13:47:32 IST" data-provider="testdata" finished-at="2022-08-19T13:47:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.DuplicateLead@40f08448]" name="postCondition" is-config="true" duration-ms="226" started-at="2022-08-19T13:47:53 IST" finished-at="2022-08-19T13:47:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:testcase.DuplicateLead@40f08448]" name="preCondition" is-config="true" duration-ms="6606" started-at="2022-08-19T13:47:53 IST" finished-at="2022-08-19T13:48:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="duplicateLead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.DuplicateLead@40f08448]" name="duplicateLead" duration-ms="19974" started-at="2022-08-19T13:48:00 IST" data-provider="testdata" finished-at="2022-08-19T13:48:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[97]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcase.DuplicateLead@40f08448]" name="postCondition" is-config="true" duration-ms="2593" started-at="2022-08-19T13:48:20 IST" finished-at="2022-08-19T13:48:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcase.DuplicateLead -->
+    </test> <!-- Leads Edge -->
+  </suite> <!-- LeafTaps -->
+</testng-results>
