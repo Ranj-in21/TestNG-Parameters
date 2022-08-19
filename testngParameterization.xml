@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LeafTaps" verbose="5">
+<parameter name = "URL" value = "http://leaftaps.com/opentaps/"/>
+  <test thread-count="5" name="Leads Chrome">
+   <parameter name = "browserName" value ="Chrome" />
+    <classes>
+      <class name="testcase.EditLead"/>
+      <class name="testcase.DeleteLead"/>
+      <class name="testcase.CreateLead"/>
+      <class name="testcase.MergeLead"/>
+      <class name="testcase.DuplicateLead"/>
+    </classes>
+  </test> <!-- Leads -->
+  <test thread-count="5" name="Leads Edge">
+   <parameter name = "browserName" value ="Edge" />
+    <classes>
+      <class name="testcase.EditLead"/>
+      <class name="testcase.DeleteLead"/>
+      <class name="testcase.CreateLead"/>
+      <class name="testcase.MergeLead"/>
+      <class name="testcase.DuplicateLead"/>
+    </classes>
+  </test> <!-- Leads -->
+</suite> <!-- LeafTaps -->
